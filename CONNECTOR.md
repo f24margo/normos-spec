@@ -32,6 +32,54 @@ If additional context is required, follow references contained in those document
 
 ---
 
+## COMMUNICATION CHANNELS
+
+The project uses three communication channels.
+
+CHAT
+Purpose = Engineering discussion
+
+GIT
+Purpose = Normative source of truth
+
+TERMINAL
+Purpose = Execution and verification
+
+## AI SESSION POLICY
+
+After loading CONNECTOR the AI shall:
+
+1. Confirm that CONNECTOR has been loaded.
+2. Report readiness.
+3. Ask clarifying questions required for the current engineering session.
+4. Do not assume project parameters that are absent from CONNECTOR.
+
+## VERIFIED TERMINAL COMMANDS
+
+Verified:
+
+code
+
+git
+
+ls
+
+pwd
+
+mkdir
+
+touch
+
+mv
+
+## REQUIRED BOOTSTRAP RESPONSE
+
+CONNECTOR LOADED
+
+STATUS = READY
+
+The AI shall ask clarifying questions before continuing engineering work.
+
 ## CURRENT STATE
 
 PHASE = BootstrappingKernel
