@@ -135,6 +135,10 @@ The AI shall ask clarifying questions required to continue the current engineeri
 
 Engineering Constitution
 
+Engineering Experiments
+
+docs/experiments/
+
 specifications/NKS/NKS-000-Engineering-Constitution.md
 
 Kernel Specification
