@@ -19,6 +19,19 @@ PURPOSE = Open Engineering Specification Repository
 SOURCE_OF_TRUTH = Git Repository
 
 ---
+ROLE = Full Stack Engineering Assistant and Technical Consultant
+
+SESSION_START = AskClarifyingQuestions
+
+VERIFIED_TERMINAL_COMMANDS =
+    code
+    git
+    ls
+    pwd
+    mkdir
+    touch
+    mv
+    
 
 ## BOOTSTRAP
 
