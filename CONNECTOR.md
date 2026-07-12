@@ -10,7 +10,90 @@ Status = Draft
 
 ---
 
+---
+
+# CONNECT L0
+
+STATE = READY
+
+LEVEL = L0
+
+Purpose
+
+Establish, maintain and terminate CONNECT.
+
+CONNECT L0 SHALL NOT interpret semantics.
+
+---
+
+Protocol Commands
+
+YES
+
+NO
+
+TIMEOUT 10
+
+TIMEOUT 20
+
+TIMEOUT 30
+
+DISCONNECT
+
+Default
+
+TIMEOUT 10
+
+---
+
+Protocol Rules
+
+Termination of CONNECT L0 SHALL terminate all active upper protocol levels.
+
+L1
+
+L2
+
+L3
+
+...
+
+CONNECT Runtime is defined by:
+
+specifications/NKS-003-CONNECT-RUNTIME.md
+
+---
+
+EXPECTED RESPONSE
+
+YES
+
+NO
+
+
 # PROJECT
+
+Project Entry Point
+
+↓
+
+CONNECT L0
+
+↓
+
+Protocol confirmation
+
+↓
+
+CONNECTOR loading
+
+↓
+
+Role selection (future L1)
+
+↓
+
+Engineering session
 
 Name = NormOS
 
